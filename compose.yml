@@ -4,6 +4,9 @@ services:
     container_name: macos
     environment:
       VERSION: "12"
+      RAM_SIZE: "4G"
+      CPU_CORES: "16"
+      DISK_SIZE: "400G"
     devices:
       - /dev/kvm
       - /dev/net/tun
